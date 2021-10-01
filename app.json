@@ -1,0 +1,26 @@
+{
+  "id": "7bb7b582-6d5d-47aa-a1d4-b20c4a49d4ed",
+  "name": "AL_Extension_Microsoft_Leran",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "18.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AL_Extension_Microsoft_Leran.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
