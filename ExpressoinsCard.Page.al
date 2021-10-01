@@ -29,6 +29,7 @@ page 50111 Ausdruckskarte
 
                 field(Ergebnis; Ergebnis)
                 {
+                    Editable = false;
                     ApplicationArea = All;
                     Caption = 'Ergebins';
                 }
@@ -40,13 +41,15 @@ page 50111 Ausdruckskarte
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Ausführen)
             {
+                Caption = 'Ausführen';
+                Image = ExecuteBatch;
                 ApplicationArea = All;
 
                 trigger OnAction()
                 begin
-
+                    Ergebnis := Wert1 > Wert2;
                 end;
             }
         }
