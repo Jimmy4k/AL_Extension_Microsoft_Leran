@@ -26,6 +26,12 @@ page 50111 Ausdruckskarte
             group(Ausgabe)
             {
                 Description = 'Ausgabe';
+
+                field(Ergebnis; Ergebnis)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Ergebins';
+                }
             }
         }
     }
@@ -49,5 +55,5 @@ page 50111 Ausdruckskarte
     var
         Wert1: Integer;
         Wert2: Integer;
-        Ergegnis: Boolean;
+        Ergebnis: Boolean;
 }
